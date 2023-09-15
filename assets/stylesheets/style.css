@@ -1,0 +1,26 @@
+body {
+  min-width: 400px;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+li:last-child {
+  border-bottom: none !important;
+}
+
+.ml-auto {
+  margin: 0 0 0 auto;
+}
+
+.is-completed {
+  text-decoration: line-through;
+}
