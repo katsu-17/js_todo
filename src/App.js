@@ -5,7 +5,7 @@ export class App {
   #todoList = new TodoListModel();
 
   addTodo(inputElement) {
-    if (!inputElement.value) {
+    if (!inputElement.value.trim()) {
       return
     }
 
@@ -24,7 +24,7 @@ export class App {
   }
 
   updateTodo(id, updatedName) {
-    if (!updatedName) {
+    if (!updatedName.trim()) {
       return
     }
 
